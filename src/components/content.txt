@@ -1,0 +1,102 @@
+1. Header Section
+App Name and Logo: Display the project name "Textura" with a logo or icon that represents the app's functionality (like a document or text icon).
+Navigation Menu: Provide links for users to navigate to other sections of the site, such as:
+About
+Features
+Contact
+Login/Sign Up (if you're implementing user authentication)
+
+
+2. Hero Section
+Heading: A catchy headline that explains the value of the app. For example:
+"Extract Text from Images and PDFs Effortlessly!"
+"Turn Your Documents into Editable Text in Seconds!"
+Subheading: Briefly explain what the app does.
+"Upload images or PDFs and let Textura extract all the text you need. Easy, fast, and accurate!"
+Call to Action (CTA): A prominent button to encourage users to get started.
+"Start Extracting" or "Upload Document"
+
+
+3. How It Works (Features Section)
+Step-by-Step Process: Show how the app works in a few simple steps:
+Step 1: Upload a document (image or PDF)
+Step 2: Text extraction begins (can include visual of document being processed)
+Step 3: View and edit the extracted text
+Icons or Visuals: Use clear icons or visuals to represent each step for easy understanding.
+
+
+4. Key Features
+Highlight the core features of your app:
+Text Extraction: "Extract text from images or PDFs effortlessly."
+Editable Text: "Edit and format the extracted text."
+Multiple File Formats: "Supports PNG, JPG, PDF, and more!"
+Language Support: "Available in multiple languages."
+
+
+5. Testimonials or Reviews Section
+If you have any feedback or testimonials from users (or sample users), showcase them here.
+This helps build trust and demonstrates the app’s usefulness.
+
+
+6. Footer Section
+Contact Information: Email, phone, or a contact form.
+Social Media Links: Links to your social media profiles if applicable (e.g., Twitter, Facebook).
+Privacy Policy and Terms of Service: Provide links to your privacy policy and terms of service if applicable.
+
+
+7. Optional Additions
+Demo Video: A quick demo video showing how the app works can be very engaging and informative.
+Pricing Plans: If your app has premium features or plans, display them here. Otherwise, indicate it's free for basic usage or has a free trial.
+
+
+
+
+//the posible list i have ot work
+1. PDF Conversions
+PDF to Word
+PDF to Excel
+PDF to PowerPoint
+PDF to Image (JPG/PNG)
+PDF to Text
+PDF to HTML
+PDF to CSV
+PDF to EPUB
+2. Word Conversions
+Word to PDF
+Word to Excel
+Word to PowerPoint
+Word to Image (JPG/PNG)
+Word to Text
+Word to HTML
+Word to ODT (OpenDocument Text)
+3. Excel Conversions
+Excel to PDF
+Excel to Word
+Excel to CSV
+Excel to Image (JPG/PNG)
+Excel to HTML
+Excel to JSON
+Excel to ODS (OpenDocument Spreadsheet)
+4. PowerPoint Conversions
+PowerPoint to PDF
+PowerPoint to Word
+PowerPoint to Excel
+PowerPoint to Image (JPG/PNG)
+PowerPoint to Video (MP4)
+PowerPoint to HTML
+5. Image Conversions
+Image (JPG/PNG) to PDF
+Image to Word
+Image to Excel
+Image to Text (OCR)
+6. CSV Conversions
+CSV to PDF
+CSV to Excel
+CSV to Word
+CSV to JSON
+CSV to HTML
+7. Text Conversions
+Text to PDF
+Text to Word
+Text to HTML
+Text to CSV
