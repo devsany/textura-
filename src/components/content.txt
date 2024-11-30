@@ -100,3 +100,8 @@ Text to PDF
 Text to Word
 Text to HTML
 Text to CSV
+
+
+
+packege to conver jpg to PNG
+npm install file-saver

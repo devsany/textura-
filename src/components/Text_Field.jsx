@@ -3,7 +3,7 @@ import Editor1 from "./Editor";
 
 const Text_Field = () => {
   return (
-    <div>
+    <div className="mt-[50px]">
       <Editor1 />
     </div>
   );

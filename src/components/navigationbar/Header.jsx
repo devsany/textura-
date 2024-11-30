@@ -40,9 +40,9 @@ const Header = () => {
           </a>
 
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600">
+            <NavLink to="/" className="text-gray-700 hover:text-blue-600">
               Home
-            </a>
+            </NavLink>
             <NavLink to="/editor" className="text-gray-700 hover:text-blue-600">
               Editor
             </NavLink>

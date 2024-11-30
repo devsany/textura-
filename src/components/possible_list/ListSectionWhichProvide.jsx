@@ -56,10 +56,13 @@ const ListSectionWhichProvide = () => {
           </div>
         </NavLink>
 
-        <div className="max-w-sm mx-auto p-6 bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out relative">
+        <NavLink
+          to="/jpg_to_png"
+          className="max-w-sm mx-auto p-6 bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out relative"
+        >
           {/* Top-left Label */}
           <div className="absolute top-0 left-0 p-2 text-sm bg-teal-500 rounded-br-lg font-semibold text-gray-50">
-            Latest
+            New Release
           </div>
 
           {/* Top-right Blinking Element */}
@@ -93,7 +96,7 @@ const ListSectionWhichProvide = () => {
 
             {/* Title Text */}
             <span className="text-2xl font-semibold text-gray-800">
-              JPG to Text
+              JPG to PNG
             </span>
 
             {/* Description Text */}
@@ -102,7 +105,7 @@ const ListSectionWhichProvide = () => {
               image files, enabling efficient data processing and analysis.
             </p>
           </div>
-        </div>
+        </NavLink>
         <div className="max-w-sm mx-auto p-6 bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out relative">
           {/* Top-left Label */}
           <div className="absolute top-0 left-0 p-2 text-sm bg-teal-500 rounded-br-lg font-semibold text-gray-50">
