@@ -5,8 +5,12 @@ import HeroSection from "./HeroSection";
 const MainHome = () => {
   return (
     <div>
-      <Header />
-      <HeroSection />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <HeroSection />
+      </div>
     </div>
   );
 };

@@ -20,7 +20,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div>
+    <div className="mt-[50px]">
       <div className="h-full w-full pt-5 bg-gray-50 relative">
         {" "}
         <div className="absolute z-1 flex   w-full  justify-end    transform   overflow-hidden  transition-all ease-in-out duration-500     ">

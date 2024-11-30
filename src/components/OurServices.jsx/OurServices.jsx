@@ -12,18 +12,20 @@ const OurServices = () => {
   };
 
   return (
-    <div className="flex justify-around items-center">
-      <div>
+    <div className="md:flex md:justify-around items-center">
+      <div
+        className="md:block flex justify-center transform transition-all duration-200 ease-out "
+        style={{
+          transform: `perspective(1000px) rotateX(${
+            (position.y - 50) / 2
+          }deg) rotateY(${(position.x - 50) / 2}deg)  `,
+        }}
+      >
         <iframe
-          className="   rounded-lg p-6 cursor-pointer relative transform transition-all duration-300 ease-out"
+          className=" shadow-lg  border rounded-lg  cursor-pointer relative transform transition-all duration-300 ease-out"
           onMouseMove={handleMouseMove}
-          style={{
-            transform: `perspective(1000px) rotateX(${
-              (position.y - 50) / 2
-            }deg) rotateY(${(position.x - 50) / 2}deg)  `,
-          }}
-          width="600"
-          height="700"
+          // width="600"
+          height="400"
           src="https://lottie.host/embed/34584c21-4908-4c2b-84ea-4f2a301d7d2b/1pC5mKixkf.lottie"
         ></iframe>
       </div>
