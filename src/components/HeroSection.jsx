@@ -75,7 +75,7 @@ const HeroSection = () => {
         {/* text editor */}
         <ListSectionWhichProvide />
       </div>
-      <Editor1 />
+     
       {/* <PdfToWordConverter /> */} */}
     </div>
   );

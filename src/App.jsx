@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainHome from "./components/MainHome";
 import JpgToText from "./components/JpgToText";
 import Header from "./components/navigationbar/Header";
+import Text_Field from "./components/Text_Field";
+ 
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainHome />} />
           <Route path="/jpg_to_text" element={<JpgToText />} />
+          <Route path="/editor" element={<Text_Field />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,9 +43,9 @@ const Header = () => {
             <a href="#home" className="text-gray-700 hover:text-blue-600">
               Home
             </a>
-            <a href="#services" className="text-gray-700 hover:text-blue-600">
-              Services
-            </a>
+            <NavLink to="/editor" className="text-gray-700 hover:text-blue-600">
+              Editor
+            </NavLink>
             <a href="#about" className="text-gray-700 hover:text-blue-600">
               About
             </a>
