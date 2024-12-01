@@ -29,6 +29,10 @@ import ExcelToCSV from "./components/OurCovertSection/ExcelToCSV";
 import ExcelToImage from "./components/OurCovertSection/ExcelToImage";
 import ExcelToJSON from "./components/OurCovertSection/excelToJSON";
 import ExcelToHTML from "./components/OurCovertSection/ExcelToHtml";
+import ExcellToWord from "./components/OurCovertSection/ExcellToWord";
+import ExcelToPDF from "./components/OurCovertSection/ExcelToPDF";
+import WordToPDF from "./components/OurCovertSection/WordToPDF";
+import WordToExcel from "./components/OurCovertSection/WordToExcel";
 
 function App() {
   return (
@@ -67,6 +71,10 @@ function App() {
           <Route path="/excel_to_json" element={<ExcelToJSON />} />
           <Route path="/excel_to_image" element={<ExcelToImage />} />
           <Route path="/excel_to_html" element={<ExcelToHTML />} />
+          <Route path="/excel_to_word" element={<ExcellToWord />} />
+          <Route path="/excel_to_pdf" element={<ExcelToPDF />} />
+          <Route path="/word_to_pdf" element={<WordToPDF />} />
+          <Route path="/word_to_excel" element={<WordToExcel />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}

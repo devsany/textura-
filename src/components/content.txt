@@ -62,16 +62,16 @@ PDF to HTML
 PDF to CSV
 PDF to EPUB
 2. Word Conversions
-Word to PDF
-Word to Excel
+Word to PDF (done)
+Word to Excel (done)
 Word to PowerPoint
 Word to Image (JPG/PNG)
-Word to Text
+Word to Text 
 Word to HTML
 Word to ODT (OpenDocument Text)
 3. Excel Conversions
-Excel to PDF
-Excel to Word
+Excel to PDF (done)
+Excel to Word (done)
 Excel to CSV (done)
 Excel to Image (JPG/PNG) (done)
 Excel to HTML (done)
@@ -178,4 +178,16 @@ package to convert excell to json
 no package required (working)
 
 package to convert excel to html or react componet
+no package required (working)
+
+package to convert excel to word
+no package required (working)
+
+package to convert excel to pdf 
+npm install xlsx jspdf jspdf-autotable (working)
+
+package to convert word to pdf
+npm install mammoth
+
+package to convert word to excell
 no package required (working)
