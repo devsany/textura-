@@ -86,8 +86,8 @@ PowerPoint to Video (MP4)
 PowerPoint to HTML
 5. Image Conversions
 Image (JPG/PNG) to PDF
-Image to Word
-Image to Excel
+Image to Word (done)🆗
+Image to Excel 
 Image to Text (OCR)
 6. CSV Conversions
 CSV to PDF
