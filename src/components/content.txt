@@ -96,12 +96,45 @@ CSV to Word
 CSV to JSON
 CSV to HTML
 7. Text Conversions
-Text to PDF
-Text to Word
-Text to HTML
-Text to CSV
+Text to PDF (done)
+Text to Word (done)
+Text to HTML (done)
+Text to CSV (done)
 
 
 
 packege to conver jpg to PNG
-npm install file-saver
+npm install file-saver (worked)
+
+
+package to conver pdf to jpg
+npm install pdfjs-dist file-saver (not worked)
+
+package to convert pdf to Word
+npm install pdf2docx (not work)
+
+i have use node js backend server for convertion of pdf to word 
+npm i axios (not work)
+
+
+package to convert pdf to jpg
+npm install pdfjs-dist docxtemplater
+npm install docx
+
+
+package to convert svg to PNG
+npm install html-to-image(working)
+
+
+package to convert  Text to PDF 
+npm install jspdf(working)
+
+package to convert text to word
+npm install docx
+npm install file-saver(working)
+
+package to convert text to html
+no package required(working)
+
+packace to convert text to CSV(.exc)
+no package required (working)

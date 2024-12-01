@@ -1,70 +1,67 @@
 import React, { useState } from "react";
-import * as PDFJS from "pdfjs-dist";
-import Docxtemplater from "docxtemplater";
+import { pdf2docx } from "pdf2docx"; // Assuming pdf2docx is available for use
 
-const PdfToWordConverter = () => {
+const PDFToWordConverter = () => {
   const [pdfFile, setPdfFile] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [wordFile, setWordFile] = useState(null);
 
-  const handleFileChange = (e) => {
-    setPdfFile(e.target.files[0]);
+  // Handle file selection
+  const handleFileUpload = (event) => {
+    const file = event.target.files[0];
+    setPdfFile(file);
   };
 
-  const convertToWord = async () => {
-    if (!pdfFile) {
-      alert("Please select a PDF file");
-      return;
-    }
+  // Convert PDF to Word
+  const convertToWord = () => {
+    if (!pdfFile) return;
 
     setLoading(true);
 
-    // Read PDF file as an array buffer
     const fileReader = new FileReader();
-    fileReader.onload = async function () {
-      const pdfData = new Uint8Array(this.result);
-      const pdf = await PDFJS.getDocument(pdfData).promise;
 
-      let extractedText = "";
-      for (let i = 0; i < pdf.numPages; i++) {
-        const page = await pdf.getPage(i + 1);
-        const textContent = await page.getTextContent();
-        extractedText +=
-          textContent.items.map((item) => item.str).join(" ") + "\n";
-      }
-
-      // Now create a Word document with extracted text
-      const doc = new Docxtemplater();
-      doc.loadZip(new JSZip()); // Create a new zip container for the Word file
-      doc.setData({ content: extractedText });
+    fileReader.onload = () => {
+      const arrayBuffer = fileReader.result;
 
       try {
-        doc.render(); // Render the Word document
-        const out = doc.getZip().generate({ type: "blob" });
+        // Convert PDF to Word
+        const wordData = pdf2docx(arrayBuffer); // pdf2docx should return the Word data
 
-        // Trigger download
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(out);
-        link.download = "converted.docx";
-        link.click();
+        // Create a Blob object and convert it into a download URL
+        const blob = new Blob([wordData], {
+          type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        });
+        const url = URL.createObjectURL(blob);
+
+        // Set the Word file URL for downloading
+        setWordFile(url);
       } catch (error) {
-        console.error(error);
-        alert("Error creating Word document");
+        console.error("Error during conversion:", error);
       } finally {
         setLoading(false);
       }
     };
 
-    fileReader.readAsArrayBuffer(pdfFile);
+    fileReader.readAsArrayBuffer(pdfFile); // Read the PDF file as ArrayBuffer
   };
 
   return (
     <div>
-      <input type="file" accept=".pdf" onChange={handleFileChange} />
+      <h2>PDF to Word Converter</h2>
+      <input type="file" accept=".pdf" onChange={handleFileUpload} />
       <button onClick={convertToWord} disabled={loading}>
-        {loading ? "Converting..." : "Convert PDF to Word"}
+        {loading ? "Converting..." : "Convert to Word"}
       </button>
+
+      {wordFile && (
+        <div>
+          <a href={wordFile} download="converted.docx">
+            Download Word File
+          </a>
+        </div>
+      )}
     </div>
   );
 };
 
-export default PdfToWordConverter;
+export default PDFToWordConverter;
