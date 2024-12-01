@@ -98,7 +98,7 @@ CSV to HTML (done)
 7. Text Conversions
 Text to PDF (done)
 Text to Word (done)
-Text to HTML (done)
+Text to HTML (done) 
 Text to CSV (done)
 
 
