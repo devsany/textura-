@@ -27,12 +27,13 @@ import PptxToWord from "./components/OurCovertSection/PowerPointToWord";
 import PowerPointToWord from "./components/OurCovertSection/PowerPointToWord";
 import ExcelToCSV from "./components/OurCovertSection/ExcelToCSV";
 import ExcelToImage from "./components/OurCovertSection/ExcelToImage";
-import ExcelToJSON from "./components/OurCovertSection/excelToJSON";
+// import ExcelToJSON from "./components/OurCovertSection/ExcelToJSON";
 import ExcelToHTML from "./components/OurCovertSection/ExcelToHtml";
 import ExcellToWord from "./components/OurCovertSection/ExcellToWord";
 import ExcelToPDF from "./components/OurCovertSection/ExcelToPDF";
 import WordToPDF from "./components/OurCovertSection/WordToPDF";
 import WordToExcel from "./components/OurCovertSection/WordToExcel";
+import ExcelToEditableJSON from "./components/OurCovertSection/ExcelToJSON";
 
 function App() {
   return (
@@ -68,7 +69,7 @@ function App() {
           <Route path="/json_to_word" element={<JsonToWord />} />
           <Route path="/pptx_to_word" element={<PowerPointToWord />} />
           <Route path="/excel_to_csv" element={<ExcelToCSV />} />
-          <Route path="/excel_to_json" element={<ExcelToJSON />} />
+          <Route path="/excel_to_json" element={<ExcelToEditableJSON />} />
           <Route path="/excel_to_image" element={<ExcelToImage />} />
           <Route path="/excel_to_html" element={<ExcelToHTML />} />
           <Route path="/excel_to_word" element={<ExcellToWord />} />
