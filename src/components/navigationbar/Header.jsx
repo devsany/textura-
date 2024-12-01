@@ -49,9 +49,12 @@ const Header = () => {
             <NavLink to="/about" className="text-gray-700 hover:text-blue-600">
               About
             </NavLink>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600">
+            <NavLink
+              to="/contact"
+              className="text-gray-700 hover:text-blue-600"
+            >
               Contact
-            </a>
+            </NavLink>
           </div>
 
           <div className="md:hidden">
