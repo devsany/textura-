@@ -7,6 +7,8 @@ import Comment from "./Comment";
 import ListSectionWhichProvide from "./possible_list/ListSectionWhichProvide";
 import { NavLink } from "react-router-dom";
 import OurServices from "./OurServices.jsx/OurServices";
+import YouTubeAudioPlayer from "./possible_list/ListSectionWhichProvide";
+import PdfToWordConverter from "./OurCovertSection/PDFToJPGConverter";
 
 const HeroSection = () => {
   const [position, setPosition] = useState({ x: 49, y: 49 });
@@ -72,11 +74,14 @@ const HeroSection = () => {
         <div className="pt-20">
           <OurServices />
         </div>
+        <div>
+          <ListSectionWhichProvide />
+        </div>
         {/* text editor */}
-        <ListSectionWhichProvide />
+        {/* <YouTubeAudioPlayer /> */}
       </div>
-     
-      {/* <PdfToWordConverter /> */} */}
+
+      {/* <PdfToWordConverter /> */}
     </div>
   );
 };

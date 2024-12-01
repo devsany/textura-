@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./navigationbar/Header";
 import HeroSection from "./HeroSection";
+import AudioPreviewAndDownload from "./OurCovertSection/Audio";
+import AboutTextura from "./possible_list/AboutTextura";
 
 const MainHome = () => {
   return (
@@ -11,6 +13,10 @@ const MainHome = () => {
       <div>
         <HeroSection />
       </div>
+      <div>
+        <AboutTextura />
+      </div>
+      <div>{/* <AudioPreviewAndDownload /> */}</div>
     </div>
   );
 };
