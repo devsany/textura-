@@ -17,6 +17,7 @@ import TextToPDF from "./components/OurCovertSection/TextToPDF";
 import TextToWord from "./components/OurCovertSection/TextToWord";
 import TextToHTML from "./components/OurCovertSection/TextToHtml";
 import TextToCSV from "./components/OurCovertSection/TextToCSV";
+import CsvToJson from "./components/OurCovertSection/CsvToJSON";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/text_to_word" element={<TextToWord />} />
           <Route path="/text_to_html" element={<TextToHTML />} />
           <Route path="/text_to_csv" element={<TextToCSV />} />
+          <Route path="/csv_to_json" element={<CsvToJson />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
