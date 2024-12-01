@@ -20,6 +20,11 @@ import TextToCSV from "./components/OurCovertSection/TextToCSV";
 import CsvToJson from "./components/OurCovertSection/CsvToJSON";
 import CsvToHtml from "./components/OurCovertSection/CsvToHtml";
 import CsvToWord from "./components/OurCovertSection/CsvToWord";
+import CsvToExcel from "./components/OurCovertSection/CsvToExcell";
+import JsonToExcel from "./components/OurCovertSection/JsonToExcell";
+import JsonToWord from "./components/OurCovertSection/JsonToWord";
+import PptxToWord from "./components/OurCovertSection/PowerPointToWord";
+import PowerPointToWord from "./components/OurCovertSection/PowerPointToWord";
 
 function App() {
   return (
@@ -50,10 +55,15 @@ function App() {
           <Route path="/csv_to_json" element={<CsvToJson />} />
           <Route path="/csv_to_html" element={<CsvToHtml />} />
           <Route path="/csv_to_word" element={<CsvToWord />} />
+          <Route path="/csv_to_excell" element={<CsvToExcel />} />
+          <Route path="/json_to_excell" element={<JsonToExcel />} />
+          <Route path="/json_to_word" element={<JsonToWord />} />
+          <Route path="/pptx_to_word" element={<PowerPointToWord />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
+          {/* PptxToWord */}
         </Routes>
       </BrowserRouter>
     </>

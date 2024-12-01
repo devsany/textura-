@@ -116,7 +116,7 @@ const CsvToWord = () => {
       .split("\n")
       .map((row) => row.split(","));
     return (
-      <div className="overflow-x-auto border border-gray-300 rounded-lg shadow-md mt-4 bg-white p-4">
+      <div className="overflow-x-auto border mt-[30px] rounded-lg shadow-md  bg-white p-4">
         <table className="min-w-full table-auto">
           <thead>
             <tr>
@@ -147,7 +147,7 @@ const CsvToWord = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-indigo-00 via-purple-200 to-pink-200 py-8">
+    <div className="flex flex-col items-center  mt-[30px] from-indigo-200 via-purple-200 to-pink-200 border-gray-300  justify-center min-h-screen bg-gradient-to-r from-indigo-00 via-purple-200 to-pink-200 py-8">
       <div className="bg-white shadow-lg rounded-xl p-8 w-full max-w-3xl">
         <h2 className="text-4xl font-extrabold text-center text-indigo-600 mb-8">
           CSV to Word Converter

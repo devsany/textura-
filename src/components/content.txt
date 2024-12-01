@@ -79,10 +79,10 @@ Excel to JSON
 Excel to ODS (OpenDocument Spreadsheet)
 4. PowerPoint Conversions
 PowerPoint to PDF
-PowerPoint to Word
+PowerPoint to Word 
 PowerPoint to Excel
 PowerPoint to Image (JPG/PNG)
-PowerPoint to Video (MP4)
+PowerPoint to Video (MP4) 
 PowerPoint to HTML
 5. Image Conversions
 Image (JPG/PNG) to PDF
@@ -91,8 +91,8 @@ Image to Excel
 Image to Text (OCR)
 6. CSV Conversions
 CSV to PDF
-CSV to Excel
-CSV to Word
+CSV to Excel (done)
+CSV to Word (word)
 CSV to JSON (done)
 CSV to HTML (done)
 7. Text Conversions
@@ -147,3 +147,22 @@ no package required (working)
 
 Package to convert csv to word 
 no package required(working)
+
+package to convert csv to excell
+npm install xlsx (working)
+
+
+//appart from topic
+package to convert json to excell
+npm install xlsx (working)
+
+//appart from topic
+package to cnovert json to word
+npm install docxtemplater pizzip (not working)
+
+
+
+PowerPoint to word
+npm install pizzip docxtemplater pptxgenjs file-saver
+npm install xml2js
+npm install jszip@3
