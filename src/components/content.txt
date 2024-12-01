@@ -93,8 +93,8 @@ Image to Text (OCR)
 CSV to PDF
 CSV to Excel
 CSV to Word
-CSV to JSON
-CSV to HTML
+CSV to JSON (done)
+CSV to HTML (done)
 7. Text Conversions
 Text to PDF (done)
 Text to Word (done)
@@ -141,3 +141,9 @@ no package required (working)
 
 package to convert csv to JSON
 no package required (working)
+
+package to convert csv to html (table code appear)
+no package required (working)
+
+Package to convert csv to word 
+no package required(working)
