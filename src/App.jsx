@@ -34,6 +34,8 @@ import ExcelToPDF from "./components/OurCovertSection/ExcelToPDF";
 import WordToPDF from "./components/OurCovertSection/WordToPDF";
 import WordToExcel from "./components/OurCovertSection/WordToExcel";
 import ExcelToEditableJSON from "./components/OurCovertSection/ExcelToJSON";
+import CsvToPDF from "./components/OurCovertSection/CsvToPDF";
+import WordToImage from "./components/OurCovertSection/WordToImage";
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
           <Route path="/excel_to_pdf" element={<ExcelToPDF />} />
           <Route path="/word_to_pdf" element={<WordToPDF />} />
           <Route path="/word_to_excel" element={<WordToExcel />} />
+          <Route path="/csv_to_pdf" element={<CsvToPDF />} />
+          <Route path="/word_to_image" element={<WordToImage />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}

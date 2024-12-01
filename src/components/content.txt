@@ -65,7 +65,7 @@ PDF to EPUB
 Word to PDF (done)
 Word to Excel (done)
 Word to PowerPoint
-Word to Image (JPG/PNG)
+Word to Image (JPG/PNG) (done)
 Word to Text 
 Word to HTML
 Word to ODT (OpenDocument Text)
@@ -90,7 +90,7 @@ Image to Word (done)🆗
 Image to Excel 
 Image to Text (OCR)
 6. CSV Conversions
-CSV to PDF
+CSV to PDF (done)
 CSV to Excel (done)
 CSV to Word (word)
 CSV to JSON (done)
@@ -191,3 +191,9 @@ npm install mammoth
 
 package to convert word to excell
 no package required (working)
+
+package to convert csv to pdf
+npm install papaparse jspdf jspdf-autotable (working)
+
+package to convert word to png or jpg
+npm install mammoth
