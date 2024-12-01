@@ -9,6 +9,7 @@ import { NavLink } from "react-router-dom";
 import OurServices from "./OurServices.jsx/OurServices";
 import YouTubeAudioPlayer from "./possible_list/ListSectionWhichProvide";
 import PdfToWordConverter from "./OurCovertSection/PDFToJPGConverter";
+import AboutTextura from "./possible_list/AboutTextura";
 
 const HeroSection = () => {
   const [position, setPosition] = useState({ x: 49, y: 49 });
@@ -25,10 +26,13 @@ const HeroSection = () => {
     <div className="mt-[50px]">
       <div className="h-full w-full pt-5 bg-gray-50 relative">
         {" "}
+        <div className="absolute rounded-xl w-12 ml-[20px] md:ml-[40px]">
+          <img className="rounded-lg" src="/logos/fabicon2.png" alt="" />
+        </div>
         <div className="absolute z-1 flex   w-full  justify-end    transform   overflow-hidden  transition-all ease-in-out duration-500     ">
           <img
             style={{ transform: "rotateY(20deg)" }}
-            className="  rounded-xl shadow-lg hover:shadow-2xl opacity-20  transition-all ease-in-out duration-500  transform   overflow-hidden    "
+            className="  rounded-xl shadow-lg hover:shadow-2xl opacity-30  transition-all ease-in-out duration-500  transform   overflow-hidden    "
             // src="/herosection image/herosectionImage.png"
             src="/herosection image/Wave@1x-10.0s-1366px-641px.png"
             alt=""
@@ -76,6 +80,9 @@ const HeroSection = () => {
         </div>
         <div>
           <ListSectionWhichProvide />
+        </div>
+        <div>
+          <AboutTextura />
         </div>
         {/* text editor */}
         {/* <YouTubeAudioPlayer /> */}

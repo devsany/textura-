@@ -1,8 +1,9 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const AboutTextura = () => {
   return (
-    <section className="relative mt-20 bg-gradient-to-r from-teal-50 via-white to-teal-100 py-20 px-6 overflow-hidden">
+    <section className="relative m-4 rounded-lg shadow-md  bg-gradient-to-r from-teal-50 via-white to-teal-100 py-20 px-6 overflow-hidden">
       {/* SVG Curves */}
       <div className="absolute top-0 left-0 w-full">
         <svg
@@ -17,8 +18,8 @@ const AboutTextura = () => {
           ></path>
           <defs>
             <linearGradient id="tealGradient" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#81E6D9" />
-              <stop offset="100%" stopColor="#38B2AC" />
+              <stop offset="0%" stopColor="#90E4C1" />
+              <stop offset="100%" stopColor="#90E4C1" />
             </linearGradient>
           </defs>
         </svg>
@@ -37,8 +38,8 @@ const AboutTextura = () => {
           ></path>
           <defs>
             <linearGradient id="tealGradient2" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#81E6D9" />
-              <stop offset="100%" stopColor="#4FD1C5" />
+              <stop offset="0%" stopColor="#90E4C1" />
+              <stop offset="100%" stopColor="#90E4C1" />
             </linearGradient>
           </defs>
         </svg>
@@ -46,13 +47,13 @@ const AboutTextura = () => {
 
       {/* Floating Divs */}
       <div className="absolute w-28 mt-20 h-28 bg-gradient-to-r from-teal-300 to-teal-400 rounded-full top-1/3 left-1/4 animate-pulse shadow-lg"></div>
-      <div className="absolute w-24 mt-20 h-24 bg-gradient-to-r from-teal-200 to-teal-300 rounded-full bottom-1/4 right-1/4 animate-bounce shadow-lg"></div>
       <div className="absolute w-40 h-40  mt-20 bg-gradient-to-r from-teal-100 to-teal-200 rounded-full top-10 right-10 opacity-50 animate-spin-slow"></div>
 
       {/* Content Section */}
       <div className="relative z-10 text-center max-w-5xl mx-auto">
-        <h2 className="text-5xl text-teal-900 font-extrabold text-transparent bg-clip-text">
-          Meet <span className="text-teal-900">Textura</span>
+        <div className="absolute w-[100px] h-[100px] mt-20   bg-gradient-to-r from-teal-200 to-teal-300 rounded-full bottom-1/4 right-1/4 animate-bounce shadow-lg"></div>
+        <h2 className="text-5xl md:text-white text-teal-900 font-extrabold text-transparent bg-clip-text">
+          Meet <span className="md:text-white text-teal-900">Textura</span>
         </h2>
         <p className="mt-4 text-xl text-teal-00 font-thin">
           Textura is the perfect platform for extracting and managing document
@@ -112,9 +113,11 @@ const AboutTextura = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-12">
+        <div className="pt-10">
           <button className="px-6 py-3 bg-gradient-to-r from-teal-500 to-teal-700 text-white rounded-full font-semibold shadow-lg hover:bg-gradient-to-r hover:from-teal-700 hover:to-teal-500 transform transition-transform duration-300 hover:scale-105">
-            Explore Textura
+            <NavLink to="/" className="mt-12">
+              Explore Textura
+            </NavLink>
           </button>
         </div>
       </div>

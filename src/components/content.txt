@@ -197,3 +197,9 @@ npm install papaparse jspdf jspdf-autotable (working)
 
 package to convert word to png or jpg
 npm install mammoth
+
+React Icons provides a large set of icons that are easy to use in your components. It's ideal for adding social media icons or any other icons you might need in the footer.
+Install:
+bash
+Copy code
+npm install react-icons

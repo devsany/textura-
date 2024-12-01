@@ -46,9 +46,9 @@ const Header = () => {
             <NavLink to="/editor" className="text-gray-700 hover:text-blue-600">
               Editor
             </NavLink>
-            <a href="#about" className="text-gray-700 hover:text-blue-600">
+            <NavLink to="/about" className="text-gray-700 hover:text-blue-600">
               About
-            </a>
+            </NavLink>
             <a href="#contact" className="text-gray-700 hover:text-blue-600">
               Contact
             </a>
