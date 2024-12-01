@@ -74,8 +74,8 @@ Excel to PDF
 Excel to Word
 Excel to CSV (done)
 Excel to Image (JPG/PNG) (done)
-Excel to HTML
-Excel to JSON
+Excel to HTML (done)
+Excel to JSON (done)
 Excel to ODS (OpenDocument Spreadsheet)
 4. PowerPoint Conversions
 PowerPoint to PDF
@@ -172,4 +172,10 @@ package to convert excell to csv
 no package required (working)
 
 package to convert excell to image
+no package required (working)
+
+package to convert excell to json
+no package required (working)
+
+package to convert excel to html or react componet
 no package required (working)

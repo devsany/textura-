@@ -28,6 +28,7 @@ import PowerPointToWord from "./components/OurCovertSection/PowerPointToWord";
 import ExcelToCSV from "./components/OurCovertSection/ExcelToCSV";
 import ExcelToImage from "./components/OurCovertSection/ExcelToImage";
 import ExcelToJSON from "./components/OurCovertSection/excelToJSON";
+import ExcelToHTML from "./components/OurCovertSection/ExcelToHtml";
 
 function App() {
   return (
@@ -65,12 +66,14 @@ function App() {
           <Route path="/excel_to_csv" element={<ExcelToCSV />} />
           <Route path="/excel_to_json" element={<ExcelToJSON />} />
           <Route path="/excel_to_image" element={<ExcelToImage />} />
+          <Route path="/excel_to_html" element={<ExcelToHTML />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
           {/* PptxToWord */}
           {/* ExcelToJSON */}
+          {/* ExcelToHTML */}
         </Routes>
       </BrowserRouter>
     </>
