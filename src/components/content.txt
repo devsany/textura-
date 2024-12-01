@@ -72,14 +72,14 @@ Word to ODT (OpenDocument Text)
 3. Excel Conversions
 Excel to PDF
 Excel to Word
-Excel to CSV
+Excel to CSV (done)
 Excel to Image (JPG/PNG)
 Excel to HTML
 Excel to JSON
 Excel to ODS (OpenDocument Spreadsheet)
 4. PowerPoint Conversions
 PowerPoint to PDF
-PowerPoint to Word 
+PowerPoint to Word  (not working)
 PowerPoint to Excel
 PowerPoint to Image (JPG/PNG)
 PowerPoint to Video (MP4) 
@@ -165,4 +165,8 @@ npm install docxtemplater pizzip (not working)
 PowerPoint to word
 npm install pizzip docxtemplater pptxgenjs file-saver
 npm install xml2js
-npm install jszip@3
+npm install jszip@3(not working)
+
+
+package to convert excell to csv
+no package required (working)
