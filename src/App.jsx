@@ -26,6 +26,8 @@ import JsonToWord from "./components/OurCovertSection/JsonToWord";
 import PptxToWord from "./components/OurCovertSection/PowerPointToWord";
 import PowerPointToWord from "./components/OurCovertSection/PowerPointToWord";
 import ExcelToCSV from "./components/OurCovertSection/ExcelToCSV";
+import ExcelToImage from "./components/OurCovertSection/ExcelToImage";
+import ExcelToJSON from "./components/OurCovertSection/excelToJSON";
 
 function App() {
   return (
@@ -61,11 +63,14 @@ function App() {
           <Route path="/json_to_word" element={<JsonToWord />} />
           <Route path="/pptx_to_word" element={<PowerPointToWord />} />
           <Route path="/excel_to_csv" element={<ExcelToCSV />} />
+          <Route path="/excel_to_json" element={<ExcelToJSON />} />
+          <Route path="/excel_to_image" element={<ExcelToImage />} />
           <Route path="/editor" element={<Text_Field />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
           {/* PptxToWord */}
+          {/* ExcelToJSON */}
         </Routes>
       </BrowserRouter>
     </>

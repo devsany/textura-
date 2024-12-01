@@ -70,7 +70,7 @@ const ExcelToCSV = () => {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen py-10 bg-gradient-to-br from-blue-100 via-white to-blue-300">
+    <div className="flex flex-col mt-[50px] items-center min-h-screen py-10 bg-gradient-to-br from-blue-100 via-white to-blue-300">
       {/* File upload section */}
       <div className="flex flex-col items-center bg-white shadow-lg rounded-lg p-6 w-full max-w-md md:max-w-2xl">
         <h1 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
