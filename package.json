@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.17.1",
+    "@formspree/react": "^2.5.1",
     "@tinymce/tinymce-react": "^5.1.1",
     "antd": "^5.22.2",
     "axios": "^1.7.8",

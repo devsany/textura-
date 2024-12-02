@@ -1,6 +1,46 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { NavLink } from "react-router-dom";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xkgnkrrv");
+  if (state.succeeded) {
+    return (
+      <div className="mt-[55px] ">
+        <NavLink
+          to="/"
+          className="pl-2 flex pr-2 w-[190px] pt-1 shadow-md pb-1 m-3 font-semibold text-white rounded-md bg-teal-500"
+        >
+          <div className="flex ">
+            <svg
+              className="w-6 h-6 text-white dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 6v12m8-12v12l-8-6 8-6Z"
+              />
+            </svg>
+
+            <div>Back to Home page</div>
+          </div>
+        </NavLink>
+        <div className="flex justify-center items-center h-screen">
+          <p className="text-3xl font-bold text-teal-400">
+            Thanks for joining!
+          </p>
+        </div>
+      </div>
+    );
+  }
   return (
     <div>
       <div className="max-w-5xl mt-[60px] max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif]">
@@ -149,10 +189,12 @@ const Contact = () => {
           </div>
 
           <div className="p-4 lg:col-span-2">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="grid sm:grid-cols-2 gap-8">
                 <div className="relative flex items-center">
                   <input
+                    id="fname"
+                    name="fname"
                     type="text"
                     placeholder="First Name"
                     className="px-2 py-3 bg-white w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none"
@@ -179,6 +221,8 @@ const Contact = () => {
 
                 <div className="relative flex items-center">
                   <input
+                    id="lname"
+                    name="lname"
                     type="text"
                     placeholder="Last Name"
                     className="px-2 py-3 bg-white w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none"
@@ -205,6 +249,8 @@ const Contact = () => {
 
                 <div className="relative flex items-center">
                   <input
+                    id="numberMobile"
+                    name="numberMobile"
                     type="number"
                     placeholder="Phone No."
                     className="px-2 py-3 bg-white text-black w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none"
@@ -223,6 +269,8 @@ const Contact = () => {
 
                 <div className="relative flex items-center">
                   <input
+                    id="email"
+                    name="email"
                     type="email"
                     placeholder="Email"
                     className="px-2 py-3 bg-white text-black w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none"
@@ -263,6 +311,8 @@ const Contact = () => {
 
                 <div className="relative flex items-center sm:col-span-2">
                   <textarea
+                    id="message"
+                    name="message"
                     placeholder="Write Message"
                     className="px-2 pt-3 bg-white text-black w-full text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 outline-none"
                   ></textarea>
@@ -300,7 +350,7 @@ const Contact = () => {
                   </svg>
                 </div>
 
-                <div className="col-span-full">
+                {/* <div className="col-span-full">
                   <h6 className="text-sm text-gray-800">Select Subject</h6>
                   <div className="flex max-lg:flex-col gap-6 mt-4">
                     <div className="flex items-center">
@@ -358,11 +408,12 @@ const Contact = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <button
-                type="button"
+                type="submit"
+                disabled={state.submitting}
                 className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded-lg px-4 py-3 tracking-wide text-white bg-teal-600 hover:bg-teal-700"
               >
                 <svg

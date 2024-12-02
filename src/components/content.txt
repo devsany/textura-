@@ -203,3 +203,7 @@ Install:
 bash
 Copy code
 npm install react-icons
+
+
+for contact form i use Formspree
+npm install @formspree/react
