@@ -207,3 +207,7 @@ npm install react-icons
 
 for contact form i use Formspree
 npm install @formspree/react
+
+
+for animation in about page 
+npm install framer-motion

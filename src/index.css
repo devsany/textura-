@@ -74,3 +74,7 @@ footer .text-teal-100 {
 .animate-wave {
   animation: waveAnimation 5s infinite ease-in-out;
 }
+
+#body {
+  @apply bg-gray-100 min-h-screen flex items-center justify-center;
+}

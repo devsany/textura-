@@ -57,31 +57,31 @@ function App() {
 
         <Routes>
           <Route path="/" element={<MainHome />} />
-          <Route path="/jpg_to_text" element={<JpgToText />} />
-          <Route path="/jpg_to_png" element={<JPGToPNGConverter />} />
-          <Route path="/pdf_to_jpg" element={<PDFToJPGConverter />} />
-          <Route path="/svg_to_png" element={<SvgToPngApp />} />
-          <Route path="/text_to_pdf" element={<TextToPDF />} />
-          <Route path="/text_to_word" element={<TextToWord />} />
-          <Route path="/text_to_html" element={<TextToHTML />} />
-          <Route path="/text_to_csv" element={<TextToCSV />} />
-          <Route path="/csv_to_json" element={<CsvToJson />} />
-          <Route path="/csv_to_html" element={<CsvToHtml />} />
-          <Route path="/csv_to_word" element={<CsvToWord />} />
-          <Route path="/csv_to_excell" element={<CsvToExcel />} />
-          <Route path="/json_to_excell" element={<JsonToExcel />} />
-          <Route path="/json_to_word" element={<JsonToWord />} />
-          <Route path="/pptx_to_word" element={<PowerPointToWord />} />
-          <Route path="/excel_to_csv" element={<ExcelToCSV />} />
-          <Route path="/excel_to_json" element={<ExcelToEditableJSON />} />
-          <Route path="/excel_to_image" element={<ExcelToImage />} />
-          <Route path="/excel_to_html" element={<ExcelToHTML />} />
-          <Route path="/excel_to_word" element={<ExcellToWord />} />
-          <Route path="/excel_to_pdf" element={<ExcelToPDF />} />
-          <Route path="/word_to_pdf" element={<WordToPDF />} />
-          <Route path="/word_to_excel" element={<WordToExcel />} />
-          <Route path="/csv_to_pdf" element={<CsvToPDF />} />
-          <Route path="/word_to_image" element={<WordToImage />} />
+          .<Route path="/jpg_to_text" element={<JpgToText />} />
+          .<Route path="/jpg_to_png" element={<JPGToPNGConverter />} />
+          .<Route path="/pdf_to_jpg" element={<PDFToJPGConverter />} />
+          .<Route path="/svg_to_png" element={<SvgToPngApp />} />
+          .<Route path="/text_to_pdf" element={<TextToPDF />} />
+          .<Route path="/text_to_word" element={<TextToWord />} />
+          .<Route path="/text_to_html" element={<TextToHTML />} />
+          .<Route path="/text_to_csv" element={<TextToCSV />} />
+          .<Route path="/csv_to_json" element={<CsvToJson />} />
+          .<Route path="/csv_to_html" element={<CsvToHtml />} />
+          .<Route path="/csv_to_word" element={<CsvToWord />} />
+          .<Route path="/csv_to_excell" element={<CsvToExcel />} />
+          . <Route path="/json_to_excell" element={<JsonToExcel />} />
+          . <Route path="/json_to_word" element={<JsonToWord />} />
+          .<Route path="/pptx_to_word" element={<PowerPointToWord />} />
+          .<Route path="/excel_to_csv" element={<ExcelToCSV />} />
+          . <Route path="/excel_to_json" element={<ExcelToEditableJSON />} />
+          . <Route path="/excel_to_image" element={<ExcelToImage />} />
+          . <Route path="/excel_to_html" element={<ExcelToHTML />} />
+          .<Route path="/excel_to_word" element={<ExcellToWord />} />
+          . <Route path="/excel_to_pdf" element={<ExcelToPDF />} />
+          . <Route path="/word_to_pdf" element={<WordToPDF />} />
+          .<Route path="/word_to_excel" element={<WordToExcel />} />
+          .<Route path="/csv_to_pdf" element={<CsvToPDF />} />
+          .<Route path="/word_to_image" element={<WordToImage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
