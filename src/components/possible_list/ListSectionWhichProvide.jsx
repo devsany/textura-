@@ -101,8 +101,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert JPG to PNG for clearer images with lossless quality and
+              the ability to maintain transparency, making it ideal for
+              graphics, logos, and web use.
             </p>
           </div>
         </NavLink>
@@ -151,8 +152,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert PDF files to high-quality JPG images, making it easier to
+              share, edit, or use specific pages from PDFs in image-based
+              projects.
             </p>
           </div>
         </NavLink>
@@ -201,8 +203,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert scalable vector graphics (SVG) to PNG format, perfect for
+              using high-quality images that are compatible with various
+              platforms and web applications.
             </p>
           </div>
         </NavLink>
@@ -251,8 +254,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert plain text documents into PDF format for easy sharing and
+              consistent formatting, ensuring your content looks great across
+              all devices and platforms.
             </p>
           </div>
         </NavLink>
@@ -301,8 +305,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Easily convert text files into Word documents, preserving
+              formatting and making it simple to edit and collaborate on content
+              in a widely-used, accessible format.
             </p>
           </div>
         </NavLink>
@@ -351,8 +356,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert plain text into HTML format, allowing you to create
+              structured web content with headings, links, and other HTML
+              elements, ready for online use.
             </p>
           </div>
         </NavLink>
@@ -401,8 +407,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert plain text into a CSV (Comma-Separated Values) format,
+              making it easy to organize and analyze data in spreadsheet
+              applications like Excel or Google Sheets.
             </p>
           </div>
         </NavLink>
@@ -451,8 +458,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert CSV (Comma-Separated Values) data into JSON (JavaScript
+              Object Notation) format for easy integration with web applications
+              and APIs, ensuring structured and readable data.
             </p>
           </div>
         </NavLink>
@@ -501,8 +509,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Transform your CSV data into a clean and readable HTML table
+              format, perfect for displaying datasets on webpages with easy
+              customization and styling options.
             </p>
           </div>
         </NavLink>
@@ -551,8 +560,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your CSV data into a well-structured Word document, ideal
+              for generating reports, summaries, or documents that require
+              table-based information from your CSV files.
             </p>
           </div>
         </NavLink>
@@ -601,8 +611,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Easily convert your CSV files into Excel format for better data
+              manipulation, analysis, and visualization, while maintaining the
+              integrity of your data.
             </p>
           </div>
         </NavLink>
@@ -651,8 +662,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Transform your CSV data into a professional-looking PDF document,
+              ideal for reports, presentations, and sharing data in a visually
+              appealing format.
             </p>
           </div>
         </NavLink>
@@ -701,8 +713,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your JSON data into Excel format for easier analysis and
+              organization, allowing seamless interaction with your data using
+              spreadsheets.
             </p>
           </div>
         </NavLink>
@@ -751,8 +764,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Transform your JSON data into a Word document for easy sharing,
+              reporting, and presentation. Perfect for generating structured
+              content from raw data.
             </p>
           </div>
         </NavLink>
@@ -801,8 +815,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert PowerPoint presentations (PPTX) into editable Word
+              documents, making it easier to extract, edit, and reuse text
+              content from slides for reports or further processing.
             </p>
           </div>
         </NavLink>
@@ -851,8 +866,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert Excel spreadsheets into CSV format, allowing for easy data
+              manipulation and compatibility with various applications,
+              especially for importing or exporting large datasets.
             </p>
           </div>
         </NavLink>
@@ -901,8 +917,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your Excel sheets into image files, preserving the layout
+              and formatting of your data for easy sharing and embedding in
+              presentations, documents, or websites.
             </p>
           </div>
         </NavLink>
@@ -951,8 +968,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Easily convert your Excel data into JSON format, making it
+              compatible with web applications, databases, and APIs for seamless
+              data integration and manipulation.
             </p>
           </div>
         </NavLink>
@@ -1001,8 +1019,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Transform your Excel spreadsheets into HTML tables for easy
+              integration into websites, allowing for better presentation and
+              accessibility of your data.
             </p>
           </div>
         </NavLink>
@@ -1051,8 +1070,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your Excel spreadsheets into Word documents, preserving
+              the data layout, making it easier to incorporate tables and charts
+              into reports or presentations.
             </p>
           </div>
         </NavLink>
@@ -1101,8 +1121,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your Excel files into professional PDF documents,
+              preserving the exact formatting, structure, and data of your
+              spreadsheet for easy sharing and printing.
             </p>
           </div>
         </NavLink>
@@ -1151,8 +1172,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Easily convert your Word documents into PDF format, ensuring that
+              your text, images, and layout remain intact for secure and
+              professional sharing.
             </p>
           </div>
         </NavLink>
@@ -1201,8 +1223,8 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your Word documents into Excel spreadsheets, making it
+              easy to organize, analyze, and manipulate data in tabular form.
             </p>
           </div>
         </NavLink>
@@ -1251,8 +1273,9 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Converting JPG to text allows you to extract editable content from
-              image files, enabling efficient data processing and analysis.
+              Convert your Word documents into high-quality images (JPG/PNG),
+              preserving the content and layout for easy sharing or embedding in
+              other media.
             </p>
           </div>
         </NavLink>

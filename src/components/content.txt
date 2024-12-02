@@ -211,3 +211,108 @@ npm install @formspree/react
 
 for animation in about page 
 npm install framer-motion
+
+for draggin 
+npm install react-draggable
+
+
+To enable drag and drop, you can use react-beautiful-dnd. You can install it using npm:
+npm install react-beautiful-dnd
+
+
+// import React from "react";
+// import { Editor } from "@tinymce/tinymce-react";
+
+// export default function Editor1() {
+//   return (
+//     // <Editor
+//     //   apiKey="eo4rkjnzf29ig50beym7kv5rtevzgwuy78n4597axr3xoou5"
+//     //   init={{
+//     //     height: 600,
+//     //     width: "100%",
+//     //     toolbar_mode: "floating",
+//     //     plugins: [
+//     //       // Core editing features
+//     //       "anchor",
+//     //       "autolink",
+//     //       "charmap",
+//     //       "codesample",
+//     //       "emoticons",
+//     //       "image",
+//     //       "link",
+//     //       "lists",
+//     //       "media",
+//     //       "searchreplace",
+//     //       "table",
+//     //       "visualblocks",
+//     //       "wordcount",
+//     //       // Your account includes a free trial of TinyMCE premium features
+//     //       // Try the most popular premium features until Dec 14, 2024:
+//     //       "checklist",
+//     //       "mediaembed",
+//     //       "casechange",
+//     //       "export",
+//     //       "formatpainter",
+//     //       "pageembed",
+//     //       "a11ychecker",
+//     //       "tinymcespellchecker",
+//     //       "permanentpen",
+//     //       "powerpaste",
+//     //       "advtable",
+//     //       "advcode",
+//     //       "editimage",
+//     //       "advtemplate",
+//     //       "ai",
+//     //       "mentions",
+//     //       "tinycomments",
+//     //       "tableofcontents",
+//     //       "footnotes",
+//     //       "mergetags",
+//     //       "autocorrect",
+//     //       "typography",
+//     //       "inlinecss",
+//     //       "markdown",
+//     //       // Early access to document converters
+//     //       "importword",
+//     //       "exportword",
+//     //       "exportpdf",
+//     //     ],
+//     //     toolbar:
+//     //       "undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat",
+//     //     tinycomments_mode: "embedded",
+//     //     tinycomments_author: "Author name",
+//     //     mergetags_list: [
+//     //       { value: "First.Name", title: "First Name" },
+//     //       { value: "Email", title: "Email" },
+//     //     ],
+//     //     ai_request: (request, respondWith) =>
+//     //       respondWith.string(() =>
+//     //         Promise.reject("See docs to implement AI Assistant")
+//     //       ),
+//     //   }}
+//     //   initialValue="Welcome to TinyMCE!"
+//     // />
+//     <div>
+
+//     </div>
+//   );
+// }
+
+
+To start using react-color, you need to install it in your project. Run the following command to install it:
+npm install react-color
+
+
+for Editor
+npm install react-draggable @svgr/webpack tailwindcss postcss autoprefixer
+
+Yes, you will need to install the html2canvas package to use it in your project. You can install it via npm or yarn.
+npm install html2canvas
+
+
+photo Editor
+npm install react-image-crop fabric react-dropzone html2canvas
+
+
+p5 photo editing library
+npm install p5

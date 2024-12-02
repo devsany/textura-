@@ -11,6 +11,8 @@ import YouTubeAudioPlayer from "./possible_list/ListSectionWhichProvide";
 import PdfToWordConverter from "./OurCovertSection/PDFToJPGConverter";
 import AboutTextura from "./possible_list/AboutTextura";
 import SelectBox from "./possible_list/SelectBox";
+import Testimonial from "./draganddrop/Testimonial";
+import Draggable from "react-draggable";
 
 const HeroSection = () => {
   const [position, setPosition] = useState({ x: 49, y: 49 });
@@ -28,6 +30,9 @@ const HeroSection = () => {
       <div className="h-full w-full pt-5 bg-gray-50 relative">
         {" "}
         <div className="absolute rounded-xl w-12 ml-[20px] md:ml-[40px]">
+          <div>
+            <div></div>
+          </div>
           <img className="rounded-lg" src="/logos/fabicon2.png" alt="" />
         </div>
         <div className="absolute z-1 flex   w-full  justify-end    transform   overflow-hidden  transition-all ease-in-out duration-500     ">
