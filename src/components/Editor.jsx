@@ -257,7 +257,7 @@ const Editor = () => {
             onClick={handleCopyCode}
             className="px-6 py-3 bg-teal-500 text-white rounded-lg shadow-md hover:bg-teal-400 transition"
           >
-            Copy SVG Code
+            Copy SVG Codes
           </button>
         </div>
       </div>
