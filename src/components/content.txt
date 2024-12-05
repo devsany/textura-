@@ -336,3 +336,6 @@ npm install react-dropzone
     "https://img.freepik.com/premium-photo/3d-rendering-illustration-background-abstract-pedestal-board-art-display-mockup-product-decoration-stand-wallpaper_1048944-26389613.jpg?t=st=1733400083~exp=1733400683~hmac=bceda05193fb1a63d335ec15fb911b526ba14bb8eed4b2edc8339782e48e441a",
     "https://img.freepik.com/free-vector/cheese-planet-fantasy-landscape-with-yellow-trees_107791-12414.jpg?t=st=1733400083~exp=1733400683~hmac=eafd884f50716b040ee7c76d69b44da7d4ac99f7c8616b7ab4d0350c3e57aaf4",
 
+
+to background and text editing
+npm install axios react-draggable react-icons
