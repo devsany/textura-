@@ -40,6 +40,7 @@ import AboutPage from "./components/possible_list/AboutPage";
 import Contact from "./components/possible_list/Contact";
 import BackgroundRemover from "./components/OurCovertSection/BackgroundRemover";
 import Footer from "./components/possible_list/Footer";
+import BackgroundAndTextEditor from "./components/OurCovertSection/BackgroundAndTextEditor";
 
 function App() {
   return (
@@ -88,12 +89,14 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
           <Route path="/background_remover" element={<BackgroundRemover />} />
+          <Route path="/background_remover_and_text_editor" element={<BackgroundAndTextEditor />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
           {/* PptxToWord */}
           {/* ExcelToJSON */}
           {/* ExcelToHTML */}
+          {/* BackgroundAndTextEditor */}
         </Routes>
         <Footer />
       </BrowserRouter>
