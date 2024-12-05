@@ -15,7 +15,7 @@ const MainHome = () => {
         <HeroSection />
       </div>
       <div>
-        <Footer />
+     
       </div>
       <div>{/* <AudioPreviewAndDownload /> */}</div>
     </div>

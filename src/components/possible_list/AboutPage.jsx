@@ -44,7 +44,7 @@ const AboutPage = () => {
       >
         {/* Blurred Background Elements */}
         <div
-          className="absolute top-10 left-20 w-96 h-96 bg-blue-300 rounded-full blur-3xl opacity-100"
+          className="absolute top-10 left-20 md:w-96 md:h-96 w-46 h-46 bg-blue-300 rounded-full blur-3xl opacity-100"
           style={{ zIndex: -1 }}
         ></div>
         <div
@@ -52,7 +52,7 @@ const AboutPage = () => {
           style={{ zIndex: -1 }}
         ></div>
         <div
-          className="absolute top-1/3 left-1/4 w-48 h-48 bg-purple-300 rounded-full blur-2xl opacity-100"
+          className="absolute top-1/3 left-1/3 w-36 h-36 bg-purple-300 rounded-full blur-2xl opacity-100"
           style={{ zIndex: -1 }}
         ></div>
 
@@ -135,11 +135,11 @@ const AboutPage = () => {
             }}
             className="absolute inset-0 bg-teal-100 opacity-20 rounded-lg"
           >
-            <iframe
+            {/* <iframe
               width="600"
               height="260"
               src="https://lottie.host/embed/276d79a3-a631-4ef6-89b9-fb098f058190/T6Jk6alWSu.lottie"
-            ></iframe>
+            ></iframe> */}
           </motion.div>
         </motion.div>
       </div>

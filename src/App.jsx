@@ -39,6 +39,7 @@ import WordToImage from "./components/OurCovertSection/WordToImage";
 import AboutPage from "./components/possible_list/AboutPage";
 import Contact from "./components/possible_list/Contact";
 import BackgroundRemover from "./components/OurCovertSection/BackgroundRemover";
+import Footer from "./components/possible_list/Footer";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
           {/* ExcelToJSON */}
           {/* ExcelToHTML */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
