@@ -46,4 +46,4 @@
 
 ![alt text](<Screenshot 2024-12-05 222557.png>)
 
-- After download the image by Clicking 👆🏻 (Preview Button) suggested to use Background Remover
+- After download the image by Clicking 👆🏻 (Preview Shapes) suggested to use Background Remover
