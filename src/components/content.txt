@@ -316,3 +316,11 @@ npm install react-image-crop fabric react-dropzone html2canvas
 
 p5 photo editing library
 npm install p5
+
+background remove npm (not working and uninstall)
+npm install @tensorflow/tfjs @tensorflow-models/body-pix
+
+To implement drag and drop functionality for image upload using Tailwind CSS, we can integrate the react-dropzone library. This library simplifies the drag-and-drop file upload process.
+npm install react-dropzone
+
+

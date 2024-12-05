@@ -67,6 +67,9 @@ const Header = () => {
                   className="bg-transparent focus:outline-none block w-full"
                 >
                   <option selected>Choose a country</option>
+                  <option value="/background_remover">
+                    Background Remover
+                  </option>
                   <option value="/jpg_to_text">JPG to Text</option>
                   <option value="/jpg_to_png">JPG to PNG</option>
                   <option value="/json_to_excell">JSON to Excell</option>
@@ -188,6 +191,7 @@ const Header = () => {
                 className="bg-transparent focus:outline-none block w-full"
               >
                 <option selected>Choose a country</option>
+                <option value="/background_remover">Background Remover</option>
                 <option value="/jpg_to_text">JPG to Text</option>
                 <option value="/jpg_to_png">JPG to PNG</option>
                 <option value="/json_to_excell">JSON to Excell</option>

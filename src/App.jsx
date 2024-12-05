@@ -38,6 +38,7 @@ import CsvToPDF from "./components/OurCovertSection/CsvToPDF";
 import WordToImage from "./components/OurCovertSection/WordToImage";
 import AboutPage from "./components/possible_list/AboutPage";
 import Contact from "./components/possible_list/Contact";
+import BackgroundRemover from "./components/OurCovertSection/BackgroundRemover";
 
 function App() {
   return (
@@ -85,6 +86,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
+          <Route path="/background_remover" element={<BackgroundRemover />} />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
