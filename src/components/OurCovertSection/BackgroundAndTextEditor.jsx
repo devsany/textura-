@@ -101,7 +101,7 @@ const BackgroundAndTextEditor = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center items-center p-6">
+    <div className="min-h-screen mt-10 bg-gray-100 flex justify-center items-center p-6">
       <div className="bg-white shadow-xl rounded-lg p-6 w-full sm:w-10/12 lg:w-8/12 xl:w-7/12">
         <h1 className="text-3xl font-semibold text-gray-800 text-center mb-6">
           Remove Background & Add Text
