@@ -66,7 +66,7 @@ const Header = () => {
                   onClick={toggleSelectBox}
                   className="bg-transparent focus:outline-none block w-full"
                 >
-                  <option selected>Choose a country</option>
+                  <option selected>Choose a the formate to conversion</option>
                   <option value="/background_remover">
                     Background Remover
                   </option>
