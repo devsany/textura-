@@ -73,6 +73,9 @@ const Header = () => {
                   <option value="/background_remover_and_text_editor">
                     Background Remover and Text Editor
                   </option>
+                  <option value="/avif_to_jpg_or_png">
+                    AVIF to PNG or JPEG
+                  </option>
                   <option value="/jpg_to_text">JPG to Text</option>
                   <option value="/jpg_to_png">JPG to PNG</option>
                   <option value="/json_to_excell">JSON to Excell</option>

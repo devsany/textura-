@@ -41,6 +41,7 @@ import Contact from "./components/possible_list/Contact";
 import BackgroundRemover from "./components/OurCovertSection/BackgroundRemover";
 import Footer from "./components/possible_list/Footer";
 import BackgroundAndTextEditor from "./components/OurCovertSection/BackgroundAndTextEditor";
+import AvifToImageConverter from "./components/OurCovertSection/AvifToImageConverter.";
 
 function App() {
   return (
@@ -88,8 +89,15 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
+          <Route
+            path="/avif_to_jpg_or_png"
+            element={<AvifToImageConverter />}
+          />
           <Route path="/background_remover" element={<BackgroundRemover />} />
-          <Route path="/background_remover_and_text_editor" element={<BackgroundAndTextEditor />} />
+          <Route
+            path="/background_remover_and_text_editor"
+            element={<BackgroundAndTextEditor />}
+          />
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
