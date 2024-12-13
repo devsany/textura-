@@ -28,7 +28,7 @@ const BackgroundRemover = () => {
           formData,
           {
             headers: {
-              "X-Api-Key": "wa5jJ3KjcUViApMNgvt8AWBr", // Replace with your actual API key
+              "X-Api-Key": "wdhWDcDE5jkXmTKv8zkr7Wpq", // Replace with your actual API key
               "Content-Type": "multipart/form-data",
             },
             responseType: "blob", // Expect the response as a blob
