@@ -43,6 +43,8 @@ import Footer from "./components/possible_list/Footer";
 import BackgroundAndTextEditor from "./components/OurCovertSection/BackgroundAndTextEditor";
 import AvifToImageConverter from "./components/OurCovertSection/AvifToImageConverter.";
 import SvgToPngConverterURL from "./components/OurCovertSection/SvgToPngConverterURL";
+import SVGViewer from "./components/OurCovertSection/SVGViewer";
+import SvgToPngConverter from "./components/OurCovertSection/SVGViewer";
 
 function App() {
   return (
@@ -90,6 +92,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
+          <Route path="/svg_viewer" element={<SvgToPngConverter />} />
           <Route
             path="/svg_to_png_converter_URL"
             element={<SvgToPngConverterURL />}
@@ -103,6 +106,7 @@ function App() {
             path="/background_remover_and_text_editor"
             element={<BackgroundAndTextEditor />}
           />
+          {/* SVGViewer */}
           {/* SvgToPngConverterURL */}
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
