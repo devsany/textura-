@@ -43,7 +43,7 @@ const Contact = () => {
   }
   return (
     <div>
-      <div className="max-w-5xl mt-[60px] max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif]">
+      <div className="max-w-5xl mt-[100px]   max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif]">
         <div className="text-center px-6">
           <h2 className="text-teal-700 text-3xl font-extrabold">Contact Us</h2>
           <p className="text-sm text-gray-500 mt-4">
