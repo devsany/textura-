@@ -14,7 +14,9 @@ const SvgToImageAndDownload = () => {
       setFile(selectedFile);
       const reader = new FileReader();
       reader.onload = (e) => {
-        setSvgCode(e.target.result);
+        const rawSvg = e.target.result;
+        const convertedSvg = convertSvgStylesToTailwind(rawSvg); // Convert inline styles to Tailwind CSS
+        setSvgCode(convertedSvg);
         setError(null); // Clear any previous errors
       };
       reader.readAsText(selectedFile);
@@ -26,6 +28,34 @@ const SvgToImageAndDownload = () => {
   // Handle file name input change
   const handleFileNameChange = (event) => {
     setFileName(event.target.value);
+  };
+
+  // Convert SVG styles to Tailwind CSS classes
+  const convertSvgStylesToTailwind = (svg) => {
+    // Replace inline styles with Tailwind CSS equivalents (basic example)
+    return svg.replace(/style="([^"]*)"/g, (match, styles) => {
+      // Example: convert "fill:none;stroke:#000000;" to Tailwind
+      const tailwindClasses = styles
+        .split(";")
+        .map((style) => {
+          if (style.includes("fill:")) {
+            return "fill-none";
+          } else if (style.includes("stroke:")) {
+            return "stroke-[#000000]"; // Can be dynamic
+          } else if (style.includes("stroke-width:")) {
+            return "stroke-[8]";
+          } else if (style.includes("stroke-linecap:")) {
+            return "stroke-linecap-round";
+          } else if (style.includes("stroke-linejoin:")) {
+            return "stroke-linejoin-round";
+          } else if (style.includes("stroke-miterlimit:")) {
+            return "stroke-miterlimit-[10]";
+          }
+          return "";
+        })
+        .join(" ");
+      return `class="${tailwindClasses}"`;
+    });
   };
 
   // Convert SVG to image (PNG, JPG, WebP)
@@ -85,10 +115,6 @@ const SvgToImageAndDownload = () => {
 
   return (
     <div className="container mt-[120px] border mx-auto p-6 sm:p-12 max-w-xl bg-white shadow-lg rounded-lg overflow-hidden">
-      {/* <?xml version="1.0" ?> */}
-
-      {/* <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> */}
-
       <h1 className="text-3xl font-semibold mb-6 text-center text-blue-600">
         SVG to Image Converter
       </h1>
@@ -182,7 +208,7 @@ const SvgToImageAndDownload = () => {
       {svgCode && (
         <div className="mt-8 text-center">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            SVG Code Preview
+            SVG Code Preview (Tailwind CSS)
           </h2>
           <div className="bg-gray-800 text-white p-6 rounded-lg overflow-x-auto mb-4 max-h-60 overflow-y-auto">
             <pre className="whitespace-nowrap">{svgCode}</pre>
