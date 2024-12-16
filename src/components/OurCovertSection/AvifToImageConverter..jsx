@@ -51,30 +51,44 @@ const AvifToImageConverter = () => {
   };
 
   return (
-    <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">
+    <div className="container mt-[100px] mx-auto p-6 max-w-4xl bg-gray-50 shadow-md rounded-lg">
+      {/* Header Section */}
+      <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">
         AVIF to PNG/JPG Converter
       </h1>
+      <p className="text-center text-gray-600 mb-8">
+        Easily convert your AVIF files to high-quality PNG or JPG formats.
+      </p>
 
       {/* File Upload Section */}
-      <div className="grid gap-4">
-        <input
-          type="file"
-          accept=".avif"
-          onChange={handleFileChange}
-          className="block w-full p-3 border border-gray-300 rounded"
-        />
-        <select
-          value={format}
-          onChange={(e) => setFormat(e.target.value)}
-          className="block w-full p-3 border border-gray-300 rounded"
-        >
-          <option value="image/png">Convert to PNG</option>
-          <option value="image/jpeg">Convert to JPG</option>
-        </select>
+      <div className="grid gap-4 mb-8">
+        <label className="block">
+          <span className="text-lg font-medium text-gray-700">
+            Upload Your File:
+          </span>
+          <input
+            type="file"
+            accept=".avif"
+            onChange={handleFileChange}
+            className="block w-full p-3 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </label>
+        <label className="block">
+          <span className="text-lg font-medium text-gray-700">
+            Select Format:
+          </span>
+          <select
+            value={format}
+            onChange={(e) => setFormat(e.target.value)}
+            className="block w-full p-3 border border-gray-300 rounded mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="image/png">Convert to PNG</option>
+            <option value="image/jpeg">Convert to JPG</option>
+          </select>
+        </label>
         <button
           onClick={convertFile}
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold"
         >
           Convert
         </button>
@@ -83,18 +97,22 @@ const AvifToImageConverter = () => {
       {/* Preview Section */}
       {previewImage && (
         <div className="mt-8">
-          <h2 className="text-xl font-bold mb-4">Uploaded File Preview:</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-700">
+            Uploaded File Preview:
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Preview:</h3>
+            <div className="border border-gray-300 p-4 rounded-lg shadow-sm bg-white">
+              <h3 className="text-lg font-semibold mb-2 text-blue-500">
+                Preview:
+              </h3>
               <img
                 src={previewImage}
                 alt="Uploaded Preview"
                 className="w-full h-auto rounded"
               />
             </div>
-            <div className="border border-gray-300 p-4 rounded-lg flex flex-col items-center justify-center">
-              <h3 className="text-lg font-semibold mb-4 text-center">
+            <div className="border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center justify-center bg-white">
+              <h3 className="text-lg font-semibold mb-4 text-blue-500">
                 Ready to Convert
               </h3>
               <p className="text-gray-500 text-center">
@@ -107,12 +125,16 @@ const AvifToImageConverter = () => {
 
       {/* Converted Image Section */}
       {convertedImage && (
-        <div className="mt-8">
-          <h2 className="text-xl font-bold mb-4">Converted Image:</h2>
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-4 text-gray-700">
+            Converted Image:
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Converted Image Preview */}
-            <div className="border border-gray-300 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Preview:</h3>
+            <div className="border border-gray-300 p-4 rounded-lg shadow-sm bg-white">
+              <h3 className="text-lg font-semibold mb-2 text-green-500">
+                Preview:
+              </h3>
               <img
                 src={convertedImage}
                 alt="Converted Preview"
@@ -121,8 +143,8 @@ const AvifToImageConverter = () => {
             </div>
 
             {/* Download Section */}
-            <div className="border border-gray-300 p-4 rounded-lg flex flex-col items-center justify-center">
-              <h3 className="text-lg font-semibold mb-4 text-center">
+            <div className="border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center justify-center bg-white">
+              <h3 className="text-lg font-semibold mb-4 text-green-500">
                 Download Your File
               </h3>
               <a
@@ -130,7 +152,7 @@ const AvifToImageConverter = () => {
                 download={`converted-image.${
                   format === "image/png" ? "png" : "jpg"
                 }`}
-                className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+                className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition font-semibold"
               >
                 Download
               </a>

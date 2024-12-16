@@ -42,12 +42,13 @@ import BackgroundRemover from "./components/OurCovertSection/BackgroundRemover";
 import Footer from "./components/possible_list/Footer";
 import BackgroundAndTextEditor from "./components/OurCovertSection/BackgroundAndTextEditor";
 import AvifToImageConverter from "./components/OurCovertSection/AvifToImageConverter.";
+import SvgToPngConverterURL from "./components/OurCovertSection/SvgToPngConverterURL";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <div>
+        {/* <div>
           <header>
             <SignedOut>
               <SignInButton />
@@ -56,7 +57,7 @@ function App() {
               <UserButton />
             </SignedIn>
           </header>
-        </div>
+        </div> */}
         <Header />
 
         <Routes>
@@ -90,6 +91,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/editor" element={<Text_Field />} />
           <Route
+            path="/svg_to_png_converter_URL"
+            element={<SvgToPngConverterURL />}
+          />
+          <Route
             path="/avif_to_jpg_or_png"
             element={<AvifToImageConverter />}
           />
@@ -98,6 +103,7 @@ function App() {
             path="/background_remover_and_text_editor"
             element={<BackgroundAndTextEditor />}
           />
+          {/* SvgToPngConverterURL */}
           {/* JPGToPNGConverter */}
           {/* PDFToJPGConverter */}
           {/* TextToWord */}
