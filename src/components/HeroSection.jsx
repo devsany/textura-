@@ -26,7 +26,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="mt-[50px]">
+    <div className="mt-[80px]">
       <div className="h-full w-full pt-5 bg-gray-50 relative">
         {" "}
         <div className="absolute rounded-xl w-12 ml-[20px] md:ml-[40px]">
