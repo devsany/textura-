@@ -51,7 +51,7 @@ const ListSectionWhichProvide = () => {
             </span>
 
             {/* Description Text */}
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-500">
               Convert your Word documents into high-quality images (JPG/PNG),
               preserving the content and layout for easy sharing or embedding in
               other media.
