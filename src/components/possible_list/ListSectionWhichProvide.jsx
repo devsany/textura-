@@ -52,8 +52,8 @@ const ListSectionWhichProvide = () => {
 
             {/* Description Text */}
             <p className="text-sm text-gray-500">
-              Convert your Word documents into high-quality images (JPG/PNG),
-              preserving the content and layout for easy sharing or embedding in
+              Convert your SVG  documents into high-quality images (JPG/PNG),
+              preserving the content and layout for easy sharing and downlodable or embedding in
               other media.
             </p>
           </div>
