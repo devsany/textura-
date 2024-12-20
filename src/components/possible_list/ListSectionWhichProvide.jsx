@@ -12,7 +12,7 @@ const ListSectionWhichProvide = () => {
           className="max-w-sm mx-auto p-6 bg-white rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out relative"
         >
           {/* Top-left Label */}
-          <div className="relative top-0 left-0 p-2 text-sm bg-teal-500 rounded-br-lg font-semibold text-gray-50">
+          <div className="absolute top-0 left-0 p-2 text-sm bg-teal-500 rounded-br-lg font-semibold text-gray-50">
             New
           </div>
 
