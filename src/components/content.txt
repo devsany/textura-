@@ -17,7 +17,7 @@ Call to Action (CTA): A prominent button to encourage users to get started.
 "Start Extracting" or "Upload Document"
 
 
-3. How It Works (Features Section)
+3. How It Works (Features)
 Step-by-Step Process: Show how the app works in a few simple steps:
 Step 1: Upload a document (image or PDF)
 Step 2: Text extraction begins (can include visual of document being processed)
